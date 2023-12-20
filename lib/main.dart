@@ -57,8 +57,8 @@ class _MainPageState extends State<MainPage> {
         final asdx = ref.watch(asd);
   
         return Container(
-            height: 1000,
-            width: 1000,
+            height: 1000.5,
+            width: 1000.5,
             color: Colors.red,
             child: asdx.when(data: ((data) {
               return ListView.builder(
